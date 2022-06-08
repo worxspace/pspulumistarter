@@ -1,6 +1,4 @@
-using module PSPulumiYaml
-
-Import-Module pspulumi.azurenative.resources
+Import-Module pspulumiyaml.azurenative.resources
 
 New-PulumiYamlFile {
 
