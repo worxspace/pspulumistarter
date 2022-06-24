@@ -2,4 +2,4 @@ name: psyamlpulumi
 runtime:
   name: yaml
   options:
-    compiler: pwsh -file ./powershell.ps1 -noninteractive
+    compiler: pwsh -noninteractive -noprofile -command "& {$ErrorActionPreference='stop'; ./powershell.ps1}"
